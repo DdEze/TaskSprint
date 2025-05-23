@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# TaskSprint 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![React](https://img.shields.io/badge/react-19.1.0-blue?logo=react&style=flat-square)](https://reactjs.org/)  
+[![License](https://img.shields.io/github/license/tu-usuario/tasksprint?style=flat-square)](LICENSE)  
+[![Last Commit](https://img.shields.io/github/last-commit/tu-usuario/tasksprint?style=flat-square)](https://github.com/tu-usuario/tasksprint/commits/main)  
 
-## Available Scripts
+## 📋 Descripción
 
-In the project directory, you can run:
+**TaskSprint** es una aplicación web para administrar tus tareas diarias. Con ella puedes crear, filtrar, marcar como completadas y reordenar tareas con drag & drop de manera sencilla y rápida. La persistencia se maneja con LocalStorage, por lo que tus tareas se mantienen entre sesiones.
 
-### `npm start`
+## ⚙️ Tecnologías
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React 19.1.0
+- @hello-pangea/dnd (drag & drop)
+- CSS para estilos básicos
+- LocalStorage para persistencia de datos
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Instalación
 
-### `npm test`
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tasksprint.git
+   cd tasksprint
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Instala las dependencias:
 
-### `npm run build`
+    ```npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Inicia la aplicación:
+    ```npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+La aplicación se abrirá automáticamente en http://localhost:3000.
 
-### `npm run eject`
+## 🎯 Uso
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Agrega tareas desde el formulario.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Usa los filtros para mostrar todas, completadas, pendientes o vencidas.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Arrastra y suelta tareas para reordenarlas.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Las tareas se guardan automáticamente en LocalStorage.
 
-## Learn More
+## 🛠️ Estructura del Proyecto
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+/src
+  /components
+    TaskForm.js
+    TaskList.js
+    TaskItem.js
+  App.js
+  styles.css
+package.json
+README.md
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📃 MIT License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright (c) 2025 [De Dominicis, Ezequiel Anibal]
