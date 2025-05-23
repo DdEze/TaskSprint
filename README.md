@@ -23,11 +23,12 @@
    cd tasksprint
 
 2. Instala las dependencias:
-
-    ```npm install
+    ```bash
+    npm install
 
 3. Inicia la aplicación:
-    ```npm start
+    ```bash
+    npm start
 
 
 La aplicación se abrirá automáticamente en http://localhost:3000.
@@ -44,6 +45,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
 
 ## 🛠️ Estructura del Proyecto
 
+´´´
 /src
   /components
     TaskForm.js
@@ -53,6 +55,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
   styles.css
 package.json
 README.md
+´´´
 
 ## 📃 MIT License
 
