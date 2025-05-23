@@ -8,7 +8,7 @@
 
 **TaskSprint** es una aplicación web para administrar tus tareas diarias. Con ella puedes crear, filtrar, marcar como completadas y reordenar tareas con drag & drop de manera sencilla y rápida. La persistencia se maneja con LocalStorage, por lo que tus tareas se mantienen entre sesiones.
 
-## ⚙️ Tecnologías
+## 💻 Tecnologías utilizadas
 
 - React 19.1.0
 - @hello-pangea/dnd (drag & drop)
@@ -43,9 +43,9 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
 
 * Las tareas se guardan automáticamente en LocalStorage.
 
-## 🛠️ Estructura del Proyecto
+## 📦 Estructura del Proyecto
 
-´´´
+```
 /src
   /components
     TaskForm.js
@@ -55,7 +55,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
   styles.css
 package.json
 README.md
-´´´
+```
 
 ## 📃 MIT License
 
