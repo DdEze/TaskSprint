@@ -1,8 +1,10 @@
 # TaskSprint
 
 [![React](https://img.shields.io/badge/react-19.1.0-blue?logo=react&style=flat-square)](https://reactjs.org/)  
-[![License](https://img.shields.io/github/license/tu-usuario/tasksprint?style=flat-square)](LICENSE)  
-[![Last Commit](https://img.shields.io/github/last-commit/tu-usuario/tasksprint?style=flat-square)](https://github.com/tu-usuario/tasksprint/commits/main)  
+[![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow?logo=javascript&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![HTML](https://img.shields.io/badge/html5-HTML-orange?logo=html5&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/css3-CSS-blue?logo=css3&style=flat-square)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?logo=node.js&style=flat-square)](https://nodejs.org/)
 
 ## Descripción
 
@@ -45,7 +47,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
 
 ## Estructura del Proyecto
 
-´´´
+```
 /src
   /components
     TaskForm.js
@@ -55,7 +57,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
   styles.css
 package.json
 README.md
-´´´
+```
 
 ## MIT License
 
