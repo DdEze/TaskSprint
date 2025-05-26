@@ -1,21 +1,21 @@
-# TaskSprint 🚀
+# TaskSprint
 
 [![React](https://img.shields.io/badge/react-19.1.0-blue?logo=react&style=flat-square)](https://reactjs.org/)  
 [![License](https://img.shields.io/github/license/tu-usuario/tasksprint?style=flat-square)](LICENSE)  
 [![Last Commit](https://img.shields.io/github/last-commit/tu-usuario/tasksprint?style=flat-square)](https://github.com/tu-usuario/tasksprint/commits/main)  
 
-## 📋 Descripción
+## Descripción
 
 **TaskSprint** es una aplicación web para administrar tus tareas diarias. Con ella puedes crear, filtrar, marcar como completadas y reordenar tareas con drag & drop de manera sencilla y rápida. La persistencia se maneja con LocalStorage, por lo que tus tareas se mantienen entre sesiones.
 
-## 💻 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - React 19.1.0
 - @hello-pangea/dnd (drag & drop)
 - CSS para estilos básicos
 - LocalStorage para persistencia de datos
 
-## 🚀 Instalación
+## Instalación
 
 1. Clona este repositorio:
    ```bash
@@ -33,7 +33,7 @@
 
 La aplicación se abrirá automáticamente en http://localhost:3000.
 
-## 🎯 Uso
+## Uso
 
 * Agrega tareas desde el formulario.
 
@@ -43,9 +43,9 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
 
 * Las tareas se guardan automáticamente en LocalStorage.
 
-## 📦 Estructura del Proyecto
+## 📦Estructura del Proyecto
 
-```
+´´´
 /src
   /components
     TaskForm.js
@@ -55,8 +55,8 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
   styles.css
 package.json
 README.md
-```
+´´´
 
-## 📃 MIT License
+## MIT License
 
 Copyright (c) 2025 [De Dominicis, Ezequiel Anibal]
