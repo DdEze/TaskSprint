@@ -43,7 +43,7 @@ La aplicación se abrirá automáticamente en http://localhost:3000.
 
 * Las tareas se guardan automáticamente en LocalStorage.
 
-## 📦Estructura del Proyecto
+## Estructura del Proyecto
 
 ´´´
 /src
